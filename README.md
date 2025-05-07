@@ -6,7 +6,7 @@ Instead of sending a static resume, I wanted something interactive—something t
 
 The chatbot knows about my technical background, from AI and machine learning to blockchain and systems programming. It also reflects my values and communication style, offering a more human way to engage with my portfolio.
 
-![Portfolio Bot Screenshot](/public/screenshots.png)
+![Portfolio Bot Screenshot](/public/Screenshots.png)
 
 ---
 
