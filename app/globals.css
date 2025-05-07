@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Matcha Light theme colors */
+    --background: 79 38% 75%; /* #D4E09B - light pastel green */
+    --foreground: 223 3% 21%; /* #363537 - charcoal black */
+
+    --card: 79 38% 75%; /* #D4E09B - light pastel green */
+    --card-foreground: 223 3% 21%; /* #363537 - charcoal black */
+
+    --popover: 79 38% 75%; /* #D4E09B - light pastel green */
+    --popover-foreground: 223 3% 21%; /* #363537 - charcoal black */
+
+    --primary: 112 18% 49%; /* #78917F - desaturated green-gray */
+    --primary-foreground: 79 38% 75%; /* #D4E09B - light pastel green */
+
+    --secondary: 93 19% 60%; /* #9CB380 - muted olive green */
+    --secondary-foreground: 223 3% 21%; /* #363537 - charcoal black */
+
+    --muted: 93 19% 60%; /* #9CB380 - muted olive green */
+    --muted-foreground: 223 3% 21%; /* #363537 - charcoal black */
+
+    --accent: 31 30% 72%; /* #CEB7A1 - soft taupe/beige */
+    --accent-foreground: 223 3% 21%; /* #363537 - charcoal black */
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 79 38% 75%; /* #D4E09B - light pastel green */
+
+    --border: 93 19% 60%; /* #9CB380 - muted olive green */
+    --input: 93 19% 60%; /* #9CB380 - muted olive green */
+    --ring: 112 18% 49%; /* #78917F - desaturated green-gray */
+
+    --radius: 0.5rem;
+
+    /* Sidebar variables */
+    --sidebar-background: 31 30% 72%; /* #CEB7A1 - soft taupe/beige */
+    --sidebar-foreground: 223 3% 21%; /* #363537 - charcoal black */
+    --sidebar-primary: 112 18% 49%; /* #78917F - desaturated green-gray */
+    --sidebar-primary-foreground: 79 38% 75%; /* #D4E09B - light pastel green */
+    --sidebar-accent: 93 19% 60%; /* #9CB380 - muted olive green */
+    --sidebar-accent-foreground: 223 3% 21%; /* #363537 - charcoal black */
+    --sidebar-border: 93 19% 60%; /* #9CB380 - muted olive green */
+    --sidebar-ring: 112 18% 49%; /* #78917F - desaturated green-gray */
+  }
+
+  .dark {
+    --background: 223 3% 21%; /* #363537 - charcoal black */
+    --foreground: 79 38% 75%; /* #D4E09B - light pastel green */
+
+    --card: 223 3% 21%; /* #363537 - charcoal black */
+    --card-foreground: 79 38% 75%; /* #D4E09B - light pastel green */
+
+    --popover: 223 3% 21%; /* #363537 - charcoal black */
+    --popover-foreground: 79 38% 75%; /* #D4E09B - light pastel green */
+
+    --primary: 112 18% 49%; /* #78917F - desaturated green-gray */
+    --primary-foreground: 223 3% 21%; /* #363537 - charcoal black */
+
+    --secondary: 93 19% 60%; /* #9CB380 - muted olive green */
+    --secondary-foreground: 223 3% 21%; /* #363537 - charcoal black */
+
+    --muted: 93 19% 40%; /* Darker version of #9CB380 */
+    --muted-foreground: 79 38% 75%; /* #D4E09B - light pastel green */
+
+    --accent: 31 30% 52%; /* Darker version of #CEB7A1 */
+    --accent-foreground: 79 38% 75%; /* #D4E09B - light pastel green */
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 79 38% 75%; /* #D4E09B - light pastel green */
+
+    --border: 93 19% 40%; /* Darker version of #9CB380 */
+    --input: 93 19% 40%; /* Darker version of #9CB380 */
+    --ring: 112 18% 49%; /* #78917F - desaturated green-gray */
+
+    /* Sidebar variables for dark mode */
+    --sidebar-background: 223 3% 21%; /* #363537 - charcoal black */
+    --sidebar-foreground: 79 38% 75%; /* #D4E09B - light pastel green */
+    --sidebar-primary: 112 18% 49%; /* #78917F - desaturated green-gray */
+    --sidebar-primary-foreground: 79 38% 75%; /* #D4E09B - light pastel green */
+    --sidebar-accent: 93 19% 40%; /* Darker version of #9CB380 */
+    --sidebar-accent-foreground: 79 38% 75%; /* #D4E09B - light pastel green */
+    --sidebar-border: 93 19% 40%; /* Darker version of #9CB380 */
+    --sidebar-ring: 112 18% 49%; /* #78917F - desaturated green-gray */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
