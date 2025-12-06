@@ -4,8 +4,23 @@
     "name": "Janay Harris",
     "linkedin": "linkedin.com/in/janay-codes",
     "github": "github.com/snufkinwa",
-    "summary": "Computer Science student at WGU with experience in full-stack development, blockchain technology, and AI programming. Started coding in childhood with HTML and CSS on Geocities. Passionate about Python development, problem-solving, and continually learning new technologies."
+    "summary": "Founder of Synaptik Core, a cognitive AI research project focused on building safer, more reliable AI systems. Self-taught technologist with experience in machine learning, full-stack development, blockchain technologies, and emerging AI workflows. Passionate about learning, building, and pushing the boundaries of responsible AI."
   },
+
+  {
+    "type": "experience",
+    "company": "Synaptik Core",
+    "position": "Founder",
+    "date_range": "2025 - Present",
+    "description": [
+      "Founded Synaptik Core, an independent research project exploring safer, more reliable cognitive AI systems.",
+      "Leading development, research direction, and prototype design for tools that support more transparent and accountable AI behavior.",
+      "Managing all aspects of the project, including planning, documentation, user experience, and experimentation.",
+      "Collaborating with mentors and peers through programs such as AWS AI/ML Scholarship and AI4ALL Ignite to refine the project's goals and impact."
+    ],
+    "tags": ["Founder", "AI Research", "Independent Project"]
+  },
+
   {
     "type": "education",
     "institution": "Western Governors University",
@@ -14,24 +29,28 @@
     "gpa": "3.0",
     "coursework": "Object Oriented Programming, Artificial Intelligence, Algorithms, Data Structures, Linux"
   },
+
   {
     "type": "education",
     "institution": "Udacity",
     "program": "AI Programming with Python Nanodegree",
     "date_range": "June 2024 - August 2024"
   },
+
   {
     "type": "education",
     "institution": "Udacity",
     "program": "Foundation of Generative AI Nanodegree",
     "date_range": "December 2024"
   },
+
   {
     "type": "education",
     "institution": "Udacity",
     "program": "Generative AI Nanodegree",
     "date_range": "March 2025 - Present"
   },
+
   {
     "type": "education",
     "institution": "Udacity",
@@ -39,6 +58,7 @@
     "date_range": "May 2025 - Present",
     "details": "Second phase of the AWS AI/ML Scholarship program"
   },
+
   {
     "type": "technical_skills",
     "proficient": ["Python", "TypeScript", "JavaScript"],
@@ -53,17 +73,19 @@
       "SvelteKit"
     ]
   },
+
   {
     "type": "training",
     "company": "AI4ALL",
     "position": "AI Career Fellow, Ignite Program",
     "date_range": "May 2025 – Present",
     "description": [
-      "Selected for the AI4ALL Ignite Program, a nationally recognized initiative launched at Stanford to support diverse emerging AI talent",
-      "Participating in a 13-week applied machine learning project and 7-week career readiness sprint focused on real-world impact and industry collaboration",
-      "Receiving mentorship from AI professionals while developing skills in model development, responsible AI practices, and industry-standard tools"
+      "Selected for the nationally recognized AI4ALL Ignite Program supporting diverse emerging AI talent.",
+      "Participating in a 13-week applied machine learning project and 7-week career readiness sprint.",
+      "Receiving mentorship from AI professionals while developing skills in responsible AI, model development, and industry-standard tools."
     ]
   },
+
   {
     "type": "experience",
     "company": "Realty Dynamics LLC",
@@ -71,10 +93,11 @@
     "date_range": "March 2025 - Present",
     "description": [
       "Supported fundraising efforts through donor research and podcast editing.",
-      "Focused on nonprofit initiatives with no blockchain or AI responsibilities."
+      "Assisted with nonprofit initiatives and grant-focused tasks."
     ],
     "tags": ["Fundraising", "Internship"]
   },
+
   {
     "type": "experience",
     "company": "Misfit Ninjas",
@@ -86,6 +109,7 @@
     ],
     "tags": ["Backend", "Internship", "Python"]
   },
+
   {
     "type": "experience",
     "company": "Freelance",
@@ -98,155 +122,161 @@
     "tags": ["Blockchain", "Web3", "Full-Stack", "Smart Contracts"],
     "created_by_janay": true
   },
+
   {
     "type": "project",
     "name": "Windows XP-Themed Portfolio",
     "technologies": ["SvelteKit", "JavaScript", "CSS"],
     "github_url": "https://github.com/snufkinwa/winXP",
-    "description": "Created a portfolio using SvelteKit with a nostalgic Windows XP desktop theme, showcasing creative web development skills and user interface design."
+    "description": "Created a portfolio using SvelteKit with a nostalgic Windows XP desktop theme, showcasing creative web development and design."
   },
+
   {
     "type": "project",
     "name": "Floragaze: AI Image Classifier",
-    "technologies": ["Python", "PyTorch", "CNN", "Jupyter Notebook"],
+    "technologies": ["Python", "PyTorch", "CNN"],
     "github_url": "https://github.com/snufkinwa/floragaze",
     "description": [
-      "Developed an AI image classifier using PyTorch to identify flower species with 85% accuracy",
-      "Utilized Python for data preprocessing, model training, evaluation, and deployment",
-      "Implemented a convolutional neural network (CNN) to classify flower images accurately",
-      "Created a user-friendly command-line interface (CLI) tool and Jupyter Notebook for training, evaluating, and predicting flower species",
-      "Optimized model performance by fine-tuning hyperparameters, improving accuracy and runtime efficiency"
+      "Developed an image classifier using PyTorch to identify flower species with 85% accuracy.",
+      "Implemented a CNN pipeline with preprocessing, training, and evaluation.",
+      "Created CLI and Jupyter Notebook tools for training and predictions."
     ]
   },
+
   {
     "type": "project",
     "name": "Rust Interpreter",
     "technologies": ["Rust"],
     "github_url": "https://github.com/snufkinwa/rustinterpreter",
-    "description": "Built a programming language interpreter in Rust as part of the 'Build Your Own Interpreter' challenge on CodeCrafters, demonstrating systems programming skills and language design understanding."
+    "description": "Built a programming language interpreter in Rust as part of a CodeCrafters challenge."
   },
+
   {
     "type": "project",
     "name": "ELF Generator for x86_64",
     "technologies": ["C++", "Assembly", "x86_64"],
     "github_url": "https://github.com/snufkinwa/elfgen-x86-64",
-    "description": "Developed a low-level ELF (Executable and Linkable Format) file generator for x86_64 architecture, showcasing skills in systems programming and understanding of binary formats."
+    "description": "Created a low-level ELF generator for x86_64 architecture to practice systems programming and binary formats."
   },
 
   {
     "type": "project",
     "name": "Gaussian-Binomial Distribution Package",
     "technologies": ["Python", "Statistics"],
-    "description": "Developed a Python package for calculating and visualizing probability distributions, specifically Gaussian and Binomial distributions, with methods for statistical analysis."
+    "description": "Developed a Python package for Gaussian and Binomial distribution analysis and visualization."
   },
+
   {
     "type": "project",
     "name": "AI-Powered Japanese Language Learning System",
     "date": "2025",
     "description": [
-      "Designed and implemented a multi-phase language learning tool using LangGraph, Azure Speech SDK, and Google Cloud Vertex AI.",
-      "Incorporated RAG, vector search, pronunciation scoring, and agentic workflows."
+      "Designed and implemented a multi-phase language learning tool using Azure Speech SDK, LangGraph, and Vertex AI.",
+      "Included RAG, pronunciation scoring, vector search, and speech-driven workflows."
     ],
     "tags": ["AI", "Language Learning", "Speech Recognition", "RAG"],
     "created_by_janay": true
   },
+
   {
     "type": "project",
     "name": "Matcha Knowledge Chatbot",
     "date": "2025",
     "description": [
-      "Built a custom chatbot using OpenAI, vector embeddings, and semantic search.",
-      "Utilized a matcha knowledge dataset to demonstrate RAG capabilities."
+      "Built a custom chatbot using OpenAI and vector embeddings.",
+      "Used a specialized matcha dataset to demonstrate retrieval-augmented generation."
     ],
     "tags": ["AI", "Chatbot", "RAG"],
     "created_by_janay": true
   },
+
   {
     "type": "project",
     "name": "LoRA Fine-Tuning for Sequence Classification",
     "date": "2025",
     "description": [
-      "Applied parameter-efficient fine-tuning (PEFT) using Low-Rank Adaptation (LoRA) on a Hugging Face transformer model.",
-      "Improved sequence classification performance on a custom dataset while minimizing computational costs and preserving model generalization.",
-      "Compared baseline model performance with LoRA-finetuned results and documented findings."
+      "Applied LoRA-based PEFT to improve sequence classification performance on a custom dataset.",
+      "Compared baseline and fine-tuned models, documenting improvements in accuracy and generalization."
     ],
-    "technologies": [
-      "Python",
-      "Transformers",
-      "LoRA",
-      "PEFT",
-      "Hugging Face",
-      "PyTorch"
-    ],
+    "technologies": ["Python", "Transformers", "LoRA", "PEFT", "PyTorch"],
     "github_url": "https://github.com/snufkinwa/udacity_genai2025",
     "created_by_janay": true
   },
+
   {
     "type": "project",
     "name": "Portfolio Bot",
     "description": [
-      "An AI-powered chatbot built by Janay Harris using LangChain and RAG architecture.",
-      "It serves as a conversational assistant on her portfolio to help others explore her experience, projects, and skills.",
-      "It was designed to simulate a personable version of her digital presence."
+      "An AI assistant built using LangChain and RAG architecture to help users explore Janay's work and experience through conversational interaction."
     ],
     "tags": ["AI", "LangChain", "RAG", "Portfolio Bot"]
   },
+
   {
     "type": "certification",
     "name": "Python Essentials 1 & 2",
     "issuer": "Cisco Networking Academy",
     "date": "April 2023"
   },
+
   {
     "type": "certification",
     "name": "Linux Essentials 010-160",
     "issuer": "Linux Professional Institute",
     "date": "November 2024"
   },
+
   {
     "type": "certification",
     "name": "Chainlink Fundamentals Certification",
     "issuer": "Chainlink",
     "date": "April 2025"
   },
+
   {
     "type": "certification",
     "name": "Blockchain and Smart Contracts Security",
     "issuer": "Coursera",
     "date": "April 2023"
   },
+
   {
     "type": "certification",
     "name": "Intermediate Technical Interview Prep",
     "issuer": "CodePath",
     "date": "Summer 2025"
   },
+
   {
     "type": "certification",
     "name": "OpenCV University Bootcamp",
     "issuer": "OpenCV",
     "date": "April 2025"
   },
+
   {
     "type": "certification",
     "name": "Machine Learning in Production",
     "issuer": "DeepLearning.AI (Coursera)",
     "date": "October 2024"
   },
+
   {
     "type": "honor_award",
     "name": "AWS AI & ML Scholarship",
     "issuer": "Udacity & Amazon Web Services (AWS)",
     "date": "2024",
-    "details": "Awarded Phase 1 of the AWS AI & ML Scholarship Program and selected for Phase 2 to complete the AWS Machine Learning Foundations Nanodegree, focusing on core ML concepts and cloud deployment."
+    "details": "Awarded Phase 1 and selected for Phase 2 of the AWS AI/ML Scholarship Program."
   },
+
   {
     "type": "honor_award",
     "name": "Next Generation Tech Booster Scholarship",
     "issuer": "Udacity & Bertelsmann",
     "date": "2024",
-    "details": "Selected for Phase 2 of the Bertelsmann Tech Booster Scholarship, advancing technical expertise through a Nanodegree program focused on cloud, data, or AI technologies."
+    "details": "Selected for Phase 2 of the Bertelsmann Tech Booster Scholarship."
   },
+
   {
     "type": "membership",
     "organization": "ColorStack",
@@ -254,6 +284,7 @@
     "date_range": "February 2025 - Present",
     "tags": ["organization", "community", "membership", "diversity-in-tech"]
   },
+
   {
     "type": "membership",
     "organization": "Rewriting the Code (RTC)",
@@ -261,6 +292,7 @@
     "date_range": "November 2024 - Present",
     "tags": ["organization", "women-in-tech", "community", "membership"]
   },
+
   {
     "type": "membership",
     "organization": "Brilliant Black Minds",
@@ -268,6 +300,7 @@
     "date_range": "2024 - Present",
     "tags": ["organization", "black-in-tech", "community", "membership"]
   },
+
   {
     "type": "membership",
     "organization": "National Society of Leadership and Success (NSLS)",
@@ -275,63 +308,66 @@
     "date": "2025",
     "tags": ["organization", "leadership", "honor-society", "membership"]
   },
+
   {
     "type": "ai_ml_experience",
-    "description": "Focused on applied AI/ML through academic training, industry-recognized programs, and end-to-end project execution",
+    "description": "Applied AI/ML experience across academic training, industry-recognized programs, and hands-on project development.",
     "details": [
-      "Completed Udacity nanodegrees in AI Programming with Python and Generative AI, covering foundational ML and GenAI methods",
-      "Advanced to Phase 2 of the AWS AI/ML Scholarship, completing the AWS Machine Learning Foundations Nanodegree",
-      "Built Floragaze, an AI-powered image classifier using PyTorch that achieved 85% accuracy on flower species",
-      "Selected for the AI4ALL Ignite Program, contributing to a 13-week machine learning project with mentorship from AI professionals",
-      "Developed RAG-based chatbots and LoRA-finetuned models as part of the Bertelsmann Next Generation Tech Booster scholarship",
-      "Completed a Kaggle GenAI Capstone, showcasing a complete STT → RAG → LLM → TTS pipeline with Azure Speech and Vertex AI",
-      "Currently building a Japanese AI language school, integrating real-time speech scoring and OpenCV-based kana stroke recognition",
-      "Applied deep learning, transformer fine-tuning, and model evaluation across diverse, production-level projects"
+      "Completed Udacity AI Programming and Generative AI Nanodegrees.",
+      "Advanced to Phase 2 of the AWS AI/ML Scholarship program.",
+      "Built Floragaze, a CNN classifier with 85% accuracy.",
+      "Selected for AI4ALL Ignite and contributing to a 13-week ML project.",
+      "Developed multiple RAG-based chatbots and LoRA-fine-tuned models.",
+      "Completed a Kaggle GenAI capstone covering STT → RAG → LLM → TTS.",
+      "Building an AI-driven Japanese language learning tool with speech scoring.",
+      "Explored deep learning, transformer fine-tuning, and model evaluation."
     ]
   },
+
   {
     "type": "blockchain_experience",
-    "description": "Gained hands-on blockchain development experience through freelance projects with a focus on NFT ecosystems and decentralized platforms.",
+    "description": "Hands-on experience building decentralized applications and smart contract systems.",
     "details": [
-      "Developed and deployed smart contracts on Ethereum using Solidity",
-      "Created resource-oriented smart contracts on Flow using Cadence",
-      "Worked with Binance Smart Chain (BSC) during early 2021, primarily building NFT-based applications and supporting some coin-related functionality",
-      "Built and maintained full-stack decentralized applications (dApps) with a focus on usability and stability",
-      "Contributed to NFT staking and rewards features inspired by Uniswap's ecosystem and community tools",
-      "Earned the Chainlink Fundamentals Certification, demonstrating practical knowledge of decentralized oracle networks",
-      "Completed a Blockchain and Smart Contract Security certification, focusing on smart contract vulnerabilities and best practices"
+      "Developed smart contracts on Ethereum using Solidity.",
+      "Created resource-oriented smart contracts on Flow using Cadence.",
+      "Built NFT and staking-related utilities during early Web3 development.",
+      "Maintained and deployed full-stack decentralized applications.",
+      "Earned Chainlink Fundamentals Certification and completed security coursework."
     ]
   },
+
   {
     "type": "systems_programming_experience",
-    "description": "Built systems-level projects across C, C++, and Rust to strengthen low-level programming foundations.",
+    "description": "Systems-level development experience across C, C++, and Rust.",
     "details": [
-      "Developed an ELF binary generator for the x86_64 architecture to understand executable file formats and linking",
-      "Created a language interpreter in Rust with custom parsing and execution logic",
-      "Completed a C programming course with multiple assignments focused on memory management and pointer operations",
-      "Built a project in C++ applying object-oriented design and memory safety concepts",
-      "Explored in-memory data storage by starting a Redis-like key-value store in Rust"
+      "Built an ELF binary generator for x86_64 architecture.",
+      "Created a Rust-based interpreter with custom parsing logic.",
+      "Completed C programming coursework focused on memory management.",
+      "Developed C++ projects emphasizing object-oriented design.",
+      "Experimented with in-memory data stores using Rust."
     ]
   },
+
   {
     "type": "background_summary",
-    "early_life": "Passionate about computers and the internet since childhood, starting with a pixel art portfolio hosted on Geocities, coded in HTML and CSS",
-    "career_transition": "After working in various roles including logistics, healthcare, and customer service, returned to programming in 2021 after deciding to pursue a more fulfilling technical career",
-    "education_path": "Currently pursuing a BS in Computer Science at WGU, while completing specialized AI/ML nanodegrees from Udacity, including the AWS ML Fundamentals program",
-    "professional_growth": "Progressed from freelance work to gaining more specialized experience in development, particularly in blockchain, AI applications, and systems programming"
+    "early_life": "Passionate about computers since childhood, starting with a pixel art portfolio on Geocities.",
+    "career_transition": "Transitioned into tech after working in logistics, healthcare, and customer service, returning to programming in 2021.",
+    "education_path": "Pursuing a BS in Computer Science while completing specialized Udacity AI/ML programs.",
+    "professional_growth": "Progressed from freelance development to focused AI, systems programming, and cognitive research work."
   },
+
   {
     "type": "personality",
     "skills": [
-      "Known for being collaborative, supportive in peer coding sessions, and regularly praised for communication.",
-      "Proficient in using Git and GitHub for version control and collaboration."
+      "Collaborative and supportive in peer coding sessions.",
+      "Proficient with Git and GitHub for version control."
     ],
     "strengths": [
-      "Restorative: Thrives on solving problems and reviving broken systems.",
-      "Learner: Finds energy in the process of learning and improving.",
-      "Belief: Anchored by strong core values.",
-      "Responsibility: Takes ownership of commitments with dedication.",
-      "Futuristic: Inspired by what could be, driven to shape the future."
+      "Restorative",
+      "Learner",
+      "Belief",
+      "Responsibility",
+      "Futuristic"
     ]
   }
 ]
